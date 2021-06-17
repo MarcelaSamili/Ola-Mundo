@@ -2,10 +2,13 @@ body {
     background-color: rgb(194, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
+    text-align: justify;
+    text-indent: 5px;
+
     
 }
 
-article#caixa-texto{
+article{
     width: 900px;
     background-color:#ffffff;
     margin: -20px auto 0px auto;
