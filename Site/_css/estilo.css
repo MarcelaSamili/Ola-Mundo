@@ -8,9 +8,48 @@ body {
     
 }
 nav#menu {
-    box-shadow: 0px 0px 0px rgba(113, 190, 241, 0.5);
+    box-shadow: 3px 3px 3px rgba(10, 70, 110, 0.5);
+    padding: 20px 40px 50px 40px;
+    background-color: rgb(121, 160, 160);
+    margin: 20px 500px 0px 50px;
+    display: block;
+    position: relative;
+    left: 250px;
+    top: 17px;
+}
+nav#menu h2 {
+    padding: 5px 5px 5px 0px;
+    margin: 5px 310px 5px 5px;
+    display: block;
+    position: relative;
+    left: 150px;
+    top: 18px;
+}
+
+nav#menu h3#m1 {
+    padding: auto;
+    display: block;
+    position: relative;
+    left: 100px;
+    top: 18px;
+}
+
+nav#menu h3#m2 {
+    padding: auto;
+    display: block;
+    position: relative;
+    left: 520px;
+    top: -16px;
 
 }
+
+legend#converter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    color: rgba(65, 67, 68, 0.5);
+}
+
+
 
 article#artigo-1{
     width: 400px;
