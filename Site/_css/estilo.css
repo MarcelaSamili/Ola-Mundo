@@ -7,12 +7,81 @@ body {
 
     
 }
+nav#menu {
+    box-shadow: 0px 0px 0px rgba(113, 190, 241, 0.5);
 
-article{
-    width: 900px;
-    background-color:#ffffff;
+}
+
+article#artigo-1{
+    width: 400px;
+    background-color:#768386;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
+    float: left;
     
+}
+
+article#artigo-2{
+    width: 400px;
+    background-color:#768386;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+article#artigo-3{
+    width: 400px;
+    background-color:#768386;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 5px 55px 5px;
+    float: left;
+    padding-right: 15px;
+}
+
+article#artigo-4{
+    width: 400px;
+    background-color:#768386;
+    margin: 188px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    display: block;
+    position: relative;
+    left: -457px;
+    top: 17px;
+}
+
+article#artigo-5{
+    width: 400px;
+    background-color:#768386;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    display: block;
+    position: relative;
+    left: -37px;
+    top: -487px;
+    
+}
+
+article#artigo-6{
+    width: 400px;
+    background-color:#768386;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    display: block;
+    position: relative;
+    left: 383px;
+    top: -1003px;
+    
+}
+
+div#caixa-texto {
+    display: block;
+    position: relative;
+    top: 1000px;
+
 }
