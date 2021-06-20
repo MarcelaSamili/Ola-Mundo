@@ -18,34 +18,37 @@
     <h2>Conversor de Comprimento</h2>
     
 <fieldset id="caixas-conversoras">
-    
+    <div id="res">Resultado:</div>
+    <input type="button" value="converter" onclick="convert()">
     <fieldset id="opc1">
-    <input type="text" name="tM1" id="cM1"  placeholder="Medida 1" list="opcao1" ></input>
-    <!--<p><label for="cM1"><input type="text" name="tM1" id="cM1"  placeholder="Medida 1" list="opcao1" >  </label></p>-->
+    <p><label for="cM1"><input type="text" name="tM1" id="cM1"  placeholder="Medida 1" list="opcao1" >  </label></p>
     <datalist id="opcao1">
-        <option value="Metro"></option>
-        <option value="Quilômetro"></option>
-        <option value="Hectometro"></option>
-        <option value="Decâmetro"></option>
-        <option value="Decímetro"></option>
-        <option value="Centímetro"></option>
-        <option value="Milímetro"></option>
+        <option value="Metro"     id="01"></option>
+        <option value="Quilômetro"id="02"></option>
+        <option value="Hectometro"id="03"></option>
+        <option value="Decâmetro" id="04"></option>
+        <option value="Decímetro" id="05"></option>
+        <option value="Centímetro"id="06"></option>
+        <option value="Milímetro" id="07"></option>
     </datalist>
     </fieldset>
     
     <fieldset id="opc2">
-    <input type="text" name="tM2" id="cM2"  placeholder="Medida 2" list="opcao2"></input>
-        <!--<p><label for="cM2"><input type="text" name="tM2" id="cM2"  placeholder="Medida 2" list="opcao2" >  </label></p>-->
+    <p><label for="cM2"><input type="text" name="tM2" id="cM2"  placeholder="Medida 2" list="opcao2" >  </label>
         <datalist id="opcao2">
-            <option value="Metro"></option>
-            <option value="Quilômetro"></option>
-            <option value="Hectometro"></option>
-            <option value="Decâmetro"></option>
-            <option value="Decímetro"></option>
-            <option value="Centímetro"></option>
-            <option value="Milímetro"></option>
+            <option value="Metro"      id="08"></option>
+            <option value="Quilômetro" id="09"></option>
+            <option value="Hectometro" id="10"></option>
+            <option value="Decâmetro"  id="11"></option>
+            <option value="Decímetro"  id="12"></option>
+            <option value="Centímetro" id="13"></option>
+            <option value="Milímetro"  id="14"></option>
         </datalist>
         </fieldset>
+    <script>
+        var n1 = document.querySelector('datalist#opicao01')
+        
+    </script>
     </fieldset>
     
     <nav>
