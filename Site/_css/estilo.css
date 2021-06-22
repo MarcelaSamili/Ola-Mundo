@@ -22,15 +22,15 @@ nav#menu h2 {
     margin: 5px 310px 5px 5px;
     display: block;
     position: relative;
-    left: 150px;
-    top: 18px;
+    left: 200px;
+    top: 5px;
 }
 
-/*input#cM1 {
+input#cM1 {
     padding: auto;
     display: block;
     position: relative;
-    left: 100px;
+    left: 25px;
     top: 18px;
     font: normal 14pt Arial;
     
@@ -40,11 +40,11 @@ input#cM2 {
     padding: auto;
     display: block;
     position: relative;
-    left: 520px;
-    top: -16px;
+    left: 450px;
+    top: -23px;
     font: normal 14pt Arial;
 
-}*/
+}
 
 legend#converter {
     font-family: Arial, Helvetica, sans-serif;
