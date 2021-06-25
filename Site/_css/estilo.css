@@ -6,10 +6,13 @@ body {
     text-indent: 5px;
 }
 section#caixa-conversora {
-    background-color: aliceblue;
     text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
     padding: 10px;
-    width: 15;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.308);
 
 }
 
@@ -18,9 +21,9 @@ input#cM1 {
     padding: auto;
     display: block;
     position: relative;
-    left: 25px;
-    top: 18px;
-    font: normal 14pt Arial;
+    left: 10px;
+    top: 10px;
+    font: normal 12pt Arial;
     
 }
 
@@ -29,10 +32,16 @@ input#cM2 {
     padding: auto;
     display: block;
     position: relative;
-    left: 450px;
-    top: -23px;
-    font: normal 14pt Arial;
+    left: 385px;
+    top: -60px;
+    font: normal 12pt Arial;
 
+}
+input#ivalor1 {
+    position: relative;
+    left: -188px;
+    top: 20px;
+    font: normal 12pt Arial;
 }
 
 legend#converter {
@@ -45,9 +54,8 @@ legend#converter {
 
 article#artigo-1{
     width: 400px;
-    background-color:#768386;
+    
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
     float: left;
     
@@ -55,18 +63,16 @@ article#artigo-1{
 
 article#artigo-2{
     width: 400px;
-    background-color:#768386;
+    
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
     float: left;
 }
 
 article#artigo-3{
     width: 400px;
-    background-color:#768386;
+    
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 5px 55px 5px;
     float: left;
     padding-right: 15px;
@@ -74,23 +80,19 @@ article#artigo-3{
 
 article#artigo-4{
     width: 400px;
-    background-color:#768386;
+    
     margin: 188px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
-    display: block;
     position: relative;
     left: -457px;
-    top: 17px;
+    top: 16px;
 }
 
 article#artigo-5{
     width: 400px;
-    background-color:#768386;
+    
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
-    display: block;
     position: relative;
     left: -37px;
     top: -487px;
@@ -99,20 +101,21 @@ article#artigo-5{
 
 article#artigo-6{
     width: 400px;
-    background-color:#768386;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
-    display: block;
     position: relative;
     left: 383px;
     top: -1003px;
     
 }
 
-div#caixa-texto {
-    display: block;
+section#info-conteudo{
+    background-color: #768386;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto 20px auto auto;
     position: relative;
-    top: 1000px;
+    
+    top: 900px;
 
 }
