@@ -119,3 +119,10 @@ section#info-conteudo{
     top: 900px;
 
 }
+ div#res {
+     color: blue;
+     font-size: normal 20pt Arial;
+}
+input#botao{
+    font-size: Normal, 18pt Arial;
+}

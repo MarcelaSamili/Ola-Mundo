@@ -20,39 +20,51 @@
     
     <div id="medida">
     <h2>Conversor de Comprimento</h2>
-    <h4>Resultado</h4>
+    
     </div>
 
-
+    
     
     <div id="opc1">
     <p><label for="cM1"><input type="text" name="tM1" id="cM1"  placeholder="Medida 1" list="opcao1" >  </label></p>
     <datalist id="opcao1">
-        <option value="Metro"     id="01"></option>
-        <option value="Quilômetro"id="02"></option>
-        <option value="Hectometro"id="03"></option>
-        <option value="Decâmetro" id="04"></option>
-        <option value="Decímetro" id="05"></option>
-        <option value="Centímetro"id="06"></option>
-        <option value="Milímetro" id="07"></option>
+        <option value="Metro"     ></option>
+        <option value="Quilômetro"></option>
+        <option value="Hectômetro"></option>
+        <option value="Decâmetro" ></option>
+        <option value="Decímetro" ></option>
+        <option value="Centímetro"></option>
+        <option value="Milímetro" ></option>
+        <option value="Jarda">     </option>
+        <option value="Milha"></option>
+        <option value="Pé"></option>
+        <option value="Milha Naltica"></option>
+        <option value="Polegada"></option>
     </datalist>
     </div>
     
     <input type="number" name="valor1" id="ivalor1" placeholder="Incira o valor">
-    
+
     <div id="opc2">
     <p><label for="cM2"><input type="text" name="tM2" id="cM2"  placeholder="Medida 2" list="opcao2" >  </label>
         <datalist id="opcao2">
-            <option value="Metro"      id="08"></option>
-            <option value="Quilômetro" id="09"></option>
-            <option value="Hectometro" id="10"></option>
-            <option value="Decâmetro"  id="11"></option>
-            <option value="Decímetro"  id="12"></option>
-            <option value="Centímetro" id="13"></option>
-            <option value="Milímetro"  id="14"></option>
+            <option value="Metro"      ></option>
+            <option value="Quilômetro" ></option>
+            <option value="Hectômetro" ></option>
+            <option value="Decâmetro"  ></option>
+            <option value="Decímetro"  ></option>
+            <option value="Centímetro" ></option>
+            <option value="Milímetro"  ></option>
+            <option value="Jarda">     </option>
+            <option value="Milha">     </option>
+            <option value="Pé">        </option>
+            <option value="Milha Naltica"></option>
+            <option value="Polegada">  </option>
         </datalist>
     </div>
-    
+    <input type="button" value="calcular" id="botao" onclick="calcular()"> 
+    <div id="res">Resultado</div>
+    <script src="_javascript/script.js"></script>    
     </section>
     
     
