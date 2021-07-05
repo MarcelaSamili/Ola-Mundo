@@ -16,25 +16,25 @@ section#caixa-conversora {
 
 }
 
-input#cM1 {
+select#opcao1 {
     text-align: center;
     padding: auto;
     display: block;
     position: relative;
     left: 10px;
     top: 10px;
-    font: normal 12pt Arial;
+    font: normal 14pt Arial;
     
 }
 
-input#cM2 {
+select#opcao2 {
     text-align: center;
     padding: auto;
     display: block;
     position: relative;
     left: 385px;
-    top: -60px;
-    font: normal 12pt Arial;
+    top: -36px;
+    font: normal 14pt Arial;
 
 }
 input#ivalor1 {

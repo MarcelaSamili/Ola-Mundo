@@ -26,41 +26,39 @@
     
     
     <div id="opc1">
-    <p><label for="cM1"><input type="text" name="tM1" id="cM1"  placeholder="Medida 1" list="opcao1" >  </label></p>
-    <datalist id="opcao1">
-        <option value="Metro"     ></option>
-        <option value="Quilômetro"></option>
-        <option value="Hectômetro"></option>
-        <option value="Decâmetro" ></option>
-        <option value="Decímetro" ></option>
-        <option value="Centímetro"></option>
-        <option value="Milímetro" ></option>
-        <option value="Jarda">     </option>
-        <option value="Milha"></option>
-        <option value="Pé"></option>
-        <option value="Milha Naltica"></option>
-        <option value="Polegada"></option>
-    </datalist>
+    <select name="seletor1" id="opcao1" >
+        <option value="Metro"     >Metro</option>
+        <option value="Quilômetro">Quilômetro</option>
+        <option value="Hectômetro">Hectômetro</option>
+        <option value="Decâmetro" >Decâmetro</option>
+        <option value="Decímetro" >Decímetro</option>
+        <option value="Centímetro">Centímetro</option>
+        <option value="Milímetro" >Milímetro</option>
+        <option value="Jarda">    Jarda </option>
+        <option value="Milha">Milha</option>
+        <option value="Pé">Pé</option>
+        <option value="Milha Naltica">Milha Naltica</option>
+        <option value="Polegada">Polegada</option>
+    </select>
     </div>
     
     <input type="number" name="valor1" id="ivalor1" placeholder="Incira o valor">
 
     <div id="opc2">
-    <p><label for="cM2"><input type="text" name="tM2" id="cM2"  placeholder="Medida 2" list="opcao2" >  </label>
-        <datalist id="opcao2">
-            <option value="Metro"      ></option>
-            <option value="Quilômetro" ></option>
-            <option value="Hectômetro" ></option>
-            <option value="Decâmetro"  ></option>
-            <option value="Decímetro"  ></option>
-            <option value="Centímetro" ></option>
-            <option value="Milímetro"  ></option>
-            <option value="Jarda">     </option>
-            <option value="Milha">     </option>
-            <option value="Pé">        </option>
-            <option value="Milha Naltica"></option>
-            <option value="Polegada">  </option>
-        </datalist>
+    <select name="seletor2" id="opcao2" >
+        <option value="Metro"     >Metro</option>
+        <option value="Quilômetro">Quilômetro</option>
+        <option value="Hectômetro">Hectômetro</option>
+        <option value="Decâmetro" >Decâmetro</option>
+        <option value="Decímetro" >Decímetro</option>
+        <option value="Centímetro">Centímetro</option>
+        <option value="Milímetro" >Milímetro</option>
+        <option value="Jarda">    Jarda </option>
+        <option value="Milha">Milha</option>
+        <option value="Pé">Pé</option>
+        <option value="Milha Naltica">Milha Naltica</option>
+        <option value="Polegada">Polegada</option>
+    </select>
     </div>
     <input type="button" value="calcular" id="botao" onclick="calcular()"> 
     <div id="res">Resultado</div>
