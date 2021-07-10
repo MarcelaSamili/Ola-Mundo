@@ -5,8 +5,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 300px;
-    padding-bottom: 300px;
+    /*padding-bottom: 300px;*/
 
+}
+header h1{
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -19,8 +22,9 @@ body {
     text-indent: 5px;
 }*/
 section#caixa-conversora {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.521);
     border-radius: 10px;
     padding: 10px;
     width: 600px;
@@ -37,6 +41,7 @@ select#opcao1 {
     left: 10px;
     top: 10px;
     font: normal 14pt Arial;
+    background-color: rgba(255, 255, 255, 0.589);
     
 }
 
@@ -48,6 +53,7 @@ select#opcao2 {
     left: 385px;
     top: -36px;
     font: normal 14pt Arial;
+    background-color: rgba(255, 255, 255, 0.589);
 
 }
 input#ivalor1 {
@@ -58,14 +64,14 @@ input#ivalor1 {
 }
 
 legend#converter {
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17pt;
     color: rgba(65, 67, 68, 0.5);
 }
 
-
-
-/*article#artigo-1{
+/*
+article#artigo-1{
     width: 400px;
     
     margin: -20px auto 0px auto;
@@ -118,22 +124,25 @@ article#artigo-6{
     padding: 10px 10px 10px 10px;
     position: relative;
     left: 383px;
-    top: -1003px;
+    top: -1270px;
     
 }*/
 
 section#info-conteudo{
-    background-color: white;
-    padding-top: 300px;
-    padding-bottom: 200px;
+    background-color: rgba(201, 198, 198, 0.973);
+    /*padding-top: 100px;
+    padding-bottom: 200px;*/
     /*background-color: #768386;*/
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     /*padding: 5px;*/
-    margin: center;
-    position: relative;
+    /*margin: center;*/
+    /*position: relative;*/
+    margin-top: 1000px;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
     
     
-    top: 800px;
+    
 
 }
 section#roda-pe{
@@ -143,14 +152,18 @@ section#roda-pe{
     background-size: cover;
     background-attachment: fixed;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
+    /*margin-top: 1000px;*/
+    margin: auto;
 }
 
- div#res {
-     color: blue;
-     font-size: normal 50pt Arial;
-}
-input#botao{
-    font-size: Normal, 18pt Arial;
+
+
+footer#fut{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 45px;
+    text-align: center;
 }
 
